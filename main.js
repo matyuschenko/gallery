@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).on('load', function() {
 
 	var gallery = $('.gallery__image');
 	$('.content').width(gallery.width());
