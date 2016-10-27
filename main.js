@@ -1,18 +1,16 @@
 $(window).on('load', function() {
 
-	var gallery__image = $('.gallery__image'),
-        buttons = $('.button'),
-        pics_paths = {
-            'По полу': 'pics/2.png',
-            'По возрасту': 'pics/3.png'
-        };
+    var buttons = $('.button');
 
-	$('.content').width(gallery__image.width());
+    // BUTTONS BEHAVIOR
+    buttons.click(function() {
+        var $this = $(this);
+        buttons.removeClass('button_pressed');
+        $this.addClass('button_pressed');
+        $('.gallery__image').attr('src', $this.data().img);
+    });
 
-	// BUTTONS BEHAVIOR
-	buttons.click(function() {
-	    buttons.removeClass('button_pressed');
-	    $(this).addClass('button_pressed');
-        gallery__image.attr('src', pics_paths[this.textContent]);
-	});
+    buttons.eq(0).click();
+    $('.wrapper').width($('.gallery').width());
+
 });

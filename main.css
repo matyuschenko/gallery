@@ -8,7 +8,7 @@ html {
     width: 810px;
 }
 
-.content {
+.wrapper {
     margin: 0 auto;
 }
 
@@ -46,6 +46,17 @@ html {
     background-color: #ffdb4d;
     border: #ffdb4d solid 1px;
     cursor: default;
+}
+
+
+/* ГАЛЕРЕЯ */
+.gallery {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.gallery__image {
+    max-width: 100%;
 }
 
 
