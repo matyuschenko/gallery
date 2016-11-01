@@ -1,0 +1,13 @@
+/* SPECIAL CUSTOM STYLES OF CURRENT PROJECT */
+.wrapper {
+    margin: 0 auto;
+}
+
+.gallery {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.gallery__image {
+    max-width: 100%;
+}
