@@ -1,23 +1,23 @@
 /*@font-face {
     font-family: "Yandex Sans Text";
-    src: url("Yandex Sans Text-Regular.eot");
-        src: url("../../../../fonts/Yandex Sans Text-Regular.eot?#iefix") format("embedded-opentype"),
-             url("../../../../fonts/Yandex Sans Text-Regular.woff2") format("woff2"),
-             url("../../../../fonts/Yandex Sans Text-Regular.woff") format("woff"),
-             url("../../../../fonts/Yandex Sans Text-Regular.ttf") format("truetype"),
-             url("../../../../fonts/Yandex Sans Text-Regular.svg#YandexSansText-Regular") format("svg");
+    src: url("/company/figures/fonts/Yandex Sans Text-Regular.eot");
+        src: url("/company/figures/fonts/Yandex Sans Text-Regular.eot?#iefix") format("embedded-opentype"),
+             url("/company/figures/fonts/Yandex Sans Text-Regular.woff2") format("woff2"),
+             url("/company/figures/fonts/Yandex Sans Text-Regular.woff") format("woff"),
+             url("/company/figures/fonts/Yandex Sans Text-Regular.ttf") format("truetype"),
+             url("/company/figures/fonts/Yandex Sans Text-Regular.svg#YandexSansText-Regular") format("svg");
     font-weight: 400;
     font-style: normal;
     }
 
 @font-face {
     font-family: "Yandex Sans Text";
-    src: url("Yandex Sans Text-Bold.eot");
-        src: url("../../../../fonts/Yandex Sans Text-Bold.eot?#iefix") format("embedded-opentype"),
-             url("../../../../fonts/Yandex Sans Text-Bold.woff2") format("woff2"),
-             url("../../../../fonts/Yandex Sans Text-Bold.woff") format("woff"),
-             url("../../../../fonts/Yandex Sans Text-Bold.ttf") format("truetype"),
-             url("../../../../fonts/Yandex Sans Text-Bold.svg#YandexSansText-Bold") format("svg");
+    src: url("/company/figures/fonts/Yandex Sans Text-Bold.eot");
+        src: url("/company/figures/fonts/Yandex Sans Text-Bold.eot?#iefix") format("embedded-opentype"),
+             url("/company/figures/fonts/Yandex Sans Text-Bold.woff2") format("woff2"),
+             url("/company/figures/fonts/Yandex Sans Text-Bold.woff") format("woff"),
+             url("/company/figures/fonts/Yandex Sans Text-Bold.ttf") format("truetype"),
+             url("/company/figures/fonts/Yandex Sans Text-Bold.svg#YandexSansText-Bold") format("svg");
     font-weight: 700;
     font-style: normal;
     }*/
