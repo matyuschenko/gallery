@@ -1,9 +1,99 @@
-@import "yaresearch-general.css";
-@import "yaresearch-headers.css";
-@import "yaresearch-text.css";
-@import "yaresearch-buttons.css";
-@import "yaresearch-lists.css";
-@import "yaresearch-links.css";
-@import "yaresearch-tooltips.css";
-@import "../fonts/yaresearch-fonts.css";
-@import "yaresearch-custom.css";
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
+html {
+    font: 12.5px/15px "Yandex Sans Text Web", arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* =========
+   ЗАГОЛОВКИ
+   ========= */
+.header {
+    margin: 0 0 19px;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: .02em;
+    font-weight: 700;
+}
+
+.subheader {
+    margin-bottom: 20px;
+}
+
+/* =====
+   ТЕКСТ
+   ===== */
+.minor-text {
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.axis-text {
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: #555150;
+}
+
+.caption {
+    margin-top: 20px;
+    font-size: 9px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #555150;
+    letter-spacing: .06em;
+}
+
+/* ======
+   КНОПКИ
+   ====== */
+.button {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 0 13px;
+    cursor: pointer;
+    font: 13px/28px arial, sans-serif;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, 0.15) solid 1px;
+}
+
+.button_pressed {
+    background-color: #ffdb4d;
+    border: #ffdb4d solid 1px;
+    cursor: default;
+}
+
+/* ======
+   СПИСКИ
+   ====== */
+ol, ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-number {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* ==================
+   ТУЛТИПЫ И ИНФООКНО
+   ================== */
+.infopane {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(203, 203, 203, 0.5);
+}
